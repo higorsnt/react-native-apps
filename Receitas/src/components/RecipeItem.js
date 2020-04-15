@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 	},
 	image: {
 		width: 180,
-		height: 130,
+		height: 120,
 	},
 	info: {
 		flex: 1,
@@ -45,13 +45,14 @@ const styles = StyleSheet.create({
 		justifyContent: "center"
 	},
 	recipeTitle: {
-		fontFamily: 'Lato-Bold',
+		fontFamily: 'Lato',
+		fontWeight: 'bold',
 		fontSize: 17,
 		marginBottom: 10
 	},
 	recipeAuthor: {
-		fontFamily: 'Lato-Light',
-		fontSize: 15,
+		fontFamily: 'Lato',
+		fontSize: 12,
 		color: '#AAA',
 		fontWeight: 'bold'
 	}

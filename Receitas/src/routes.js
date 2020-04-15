@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
 import Home from './pages/Home';
@@ -11,7 +11,11 @@ export default function Routes() {
 
 	return (
 		<NavigationContainer>
-			<Stack.Navigator>
+			<Stack.Navigator 
+			screenOptions={{ 
+				gestureEnabled: true, 
+				...TransitionPresets.SlideFromRightIOS
+			}}>
 				<Stack.Screen 
 					name="Home"
 					component={Home}
@@ -20,10 +24,12 @@ export default function Routes() {
 						headerStyle: {
 							backgroundColor: '#FF7F50',
 						},
+						headerTitleAlign: "center",
 						headerTintColor: '#fff',
 						headerTitleStyle: {
 							fontSize: 20,
-							fontFamily: 'Lato-Bold',
+							fontFamily: 'Lato',
+							fontWeight: 'bold',
 						}
 					}}
 				/>

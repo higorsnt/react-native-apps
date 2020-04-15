@@ -1,6 +1,7 @@
-import React, { useContext } from 'react';
-import { View, StatusBar, Image, StyleSheet, TouchableHighlight } from 'react-native';
+import React from 'react';
+import { View, Image, StyleSheet, TouchableHighlight } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useRoute, useNavigation } from '@react-navigation/native';
 
 import Resume from '../components/Resume';
@@ -22,28 +23,33 @@ export default function Recipe() {
 
 	return (
 		<View style={styles.container}>
-			<TouchableHighlight
-				underlayColor="transparent"
-				onPress={goBack}
-				style={styles.backButton}
+			<LinearGradient 
+				colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
+				style={styles.gradientArea}
 			>
-				<Image
-					resizeMode="center"
-					source={require('../../assets/icons/back.png')}
-					style={styles.backImage}
-				/>
-			</TouchableHighlight>
-
+				<TouchableHighlight
+					underlayColor="transparent"
+					onPress={goBack}
+					style={styles.backButton}
+				>
+					<Image
+						resizeMode="center"
+						source={require('../../assets/icons/back.png')}
+						style={styles.backImage}
+					/>
+				</TouchableHighlight>
+			</LinearGradient>
 			<Image source={{ uri: recipe.image }} style={styles.recipeImage} />
+
 			<NavigationContext.Provider value={recipe}>
 				<Tab.Navigator
 					screenOptions={{
 						showIcon: false,
 						style: {
-							backgroundColor: '#eeeeee',
+							backgroundColor: '#EEEEEE',
 						},
 						labelStyle: {
-							fontFamily: 'Lato-Light',
+							fontFamily: 'Lato',
 							fontSize: 14,
 							height: 47,
 							lineHeight: 47,
@@ -52,12 +58,12 @@ export default function Recipe() {
 						inactiveTintColor: '#CCCCCC',
 					}}
 				>
-					<Tab.Screem name="Resume" component={Resume} />
-					<Tab.Screen name="Ingredients" component={Ingredients} />
-					<Tab.Screen name="Method" component={Method} />
+					<Tab.Screen name="Resume" component={Resume} options={{ tabBarLabel: 'Resumo' }} />
+					<Tab.Screen name="Ingredients" component={Ingredients} options={{ tabBarLabel: 'Ingredientes' }} />
+					<Tab.Screen name="Method" component={Method} options={{ tabBarLabel: 'Modo de Preparo' }} />
 				</Tab.Navigator>
 			</NavigationContext.Provider>
-		</View>
+		</View >
 	);
 }
 
@@ -65,15 +71,17 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1
 	},
+	gradientArea: {
+		zIndex: 1,
+	},
 	recipeImage: {
 		height: 250,
-		marginTop: -75
+		marginTop: -68
 	},
 	backButton: {
 		width: 40,
 		height: 40,
-		zIndex: 1,
-		marginTop: 35,
+		marginTop: 25,
 		marginLeft: 10,
 	},
 	backImage: {
