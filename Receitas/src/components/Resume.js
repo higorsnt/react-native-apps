@@ -13,13 +13,13 @@ export default function Resume() {
       <Text style={[styles.title, styles.font]}>{recipe.title}</Text>
       <Text style={[styles.author, styles.font]}>{recipe.author}</Text>
       <Text style={[styles.description, styles.font]}>{recipe.description}</Text>
-      <View style={styles.areaYield}>
-        <Text>Rendimento: </Text>
-        <Text>{recipe.yield}</Text>
+      <View style={styles.rowArea}>
+        <Text style={[styles.fontInfo, styles.font]}>Rendimento: </Text>
+        <Text style={[styles.fontInfo, styles.font]}>{recipe.yield}</Text>
       </View>
-      <View>
-        <Text>Tempo de Preparo: </Text>
-        <Text>{recipe.prep}</Text>
+      <View style={styles.rowArea}>
+        <Text style={[styles.fontInfo, styles.font]}>Tempo de Preparo: </Text>
+        <Text style={[styles.fontInfo, styles.font]}>{recipe.prep}</Text>
       </View>
     </View>
   );
@@ -29,20 +29,28 @@ const styles = StyleSheet.create({
   area: {
     flex: 1,
     backgroundColor: '#FFF',
-    padding: 15
+    paddingTop: 15,
+    paddingRight: 15,
+    paddingLeft: 15
   },
   font: {
     fontFamily: 'Lato',
+  },
+  fontInfo: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    color: '#AAA',
   },
   title: {
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
+    marginTop: 12,
   },
   author: {
     color: '#AAA',
     marginTop: 2,
-    marginBottom: 8,
+    marginBottom: 18,
     fontSize: 18,
     textAlign: 'center'
   },
@@ -50,13 +58,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 8
   },
-  areaYield: {
-    flex: 1,
+  rowArea: {
     flexDirection: 'row',
-    backgroundColor: 'red',
-  },
-  areaPrep: {
-    flex: 1,
-    flexDirection: 'row',
+    marginTop: 10,
+    marginBottom: 8,
+    justifyContent: 'center'
   },
 })
