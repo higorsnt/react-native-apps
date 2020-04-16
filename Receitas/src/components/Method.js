@@ -3,15 +3,15 @@ import { View, StyleSheet, FlatList, Text } from 'react-native';
 
 import NavigationContext from './NavigationContext';
 
-export default function Ingredients() {
+export default function Method() {
 
   const recipe = useContext(NavigationContext);
-  //Verificar o problema de usar isso
   let index = 0;
 
   return (
     <View style={styles.area}>
       <FlatList 
+        initialNumToRender={40}
         data={recipe.directions}
         renderItem={({ item }) => {
           if (item.section) {
