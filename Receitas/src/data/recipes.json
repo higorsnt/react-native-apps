@@ -8,55 +8,157 @@
         "prep": 60,
         "image": "https://img.itdg.com.br/tdg/images/recipes/000/115/197/262559/262559_original.jpg",
         "ingredients": [
-            {"key": "1", "text": "4 ovos inteiros"},
-            {"key": "2", "text": "1 xícara (chá) de mel ou favinho"},
-            {"key": "3", "text": "1 xícara (chá) de açúcar mascavo"},
-            {"key": "4", "text": "1/2 xícara (chá) de chocolate em pó"},
-            {"key": "5", "text": "1 colher (chá) de canela em pó"},
-            {"key": "6", "text": "1 colher (chá) de cravo em pó"},
-            {"key": "7", "text": "2 colheres (sopa) cheias de manteiga ou margarina"},
-            {"key": "8", "text": "2 xícaras (chá) de leite"},
-            {"key": "9", "text": "4 xícaras (chá) de farinha de trigo"},
-            {"key": "10", "text": "2 colheres (chá) de bicarbonato de sódio"},
-            {"key": "11", "text": "2 colheres (chá) de fermento em pó"},
-            {"key": "12", "text": "1 kg de chocolate fracionado para banhar"}
+            {
+                "key": "1",
+                "text": "4 ovos inteiros"
+            },
+            {
+                "key": "2",
+                "text": "1 xícara (chá) de mel ou favinho"
+            },
+            {
+                "key": "3",
+                "text": "1 xícara (chá) de açúcar mascavo"
+            },
+            {
+                "key": "4",
+                "text": "1/2 xícara (chá) de chocolate em pó"
+            },
+            {
+                "key": "5",
+                "text": "1 colher (chá) de canela em pó"
+            },
+            {
+                "key": "6",
+                "text": "1 colher (chá) de cravo em pó"
+            },
+            {
+                "key": "7",
+                "text": "2 colheres (sopa) cheias de manteiga ou margarina"
+            },
+            {
+                "key": "8",
+                "text": "2 xícaras (chá) de leite"
+            },
+            {
+                "key": "9",
+                "text": "4 xícaras (chá) de farinha de trigo"
+            },
+            {
+                "key": "10",
+                "text": "2 colheres (chá) de bicarbonato de sódio"
+            },
+            {
+                "key": "11",
+                "text": "2 colheres (chá) de fermento em pó"
+            },
+            {
+                "key": "12",
+                "text": "1 kg de chocolate fracionado para banhar"
+            }
         ],
         "directions": [
-            {"key": "1", "text": "Primeiramente, bata muito bem os ovos na batedeira, até ficar bem espumoso e amarelo claro"},
-            {"key": "2", "text": "Depois, adicione o mel, o açúcar, o chocolate, o cravo, a canela, a margarina, o leite e a farinha"},
-            {"key": "3", "text": "Bata muito bem até ficar uma massa totalmente homogênea"},
-            {"key": "4", "text": "Por último, adicione o bicarbonato e o fermento e misture a massa à mão, até ficar completamente misturada e homogênea (este é o segredo para a massa além de crescer, não murchar)"},
-            {"key": "5", "text": "Preaqueça o forno a 180ºC antes de começar a encher as forminhas previamente untadas com margarina ou manteiga"},
-            {"key": "6", "text": "Asse por aproximadamente 25 minutos, na mesma temperatura"},
-            {"key": "7", "text": "Corte todos os pãezinhos ao meio e recheie com o sabor de sua preferência"},
-            {"key": "8", "text": "Banhe-os no chocolate, espere secar bem e embale-os"},
-            {"key": "9", "text": "Essa receita pode ser vendida a R$ 2,50 cada pãozinho"}
+            {
+                "key": "1",
+                "text": "Primeiramente, bata muito bem os ovos na batedeira, até ficar bem espumoso e amarelo claro"
+            },
+            {
+                "key": "2",
+                "text": "Depois, adicione o mel, o açúcar, o chocolate, o cravo, a canela, a margarina, o leite e a farinha"
+            },
+            {
+                "key": "3",
+                "text": "Bata muito bem até ficar uma massa totalmente homogênea"
+            },
+            {
+                "key": "4",
+                "text": "Por último, adicione o bicarbonato e o fermento e misture a massa à mão, até ficar completamente misturada e homogênea (este é o segredo para a massa além de crescer, não murchar)"
+            },
+            {
+                "key": "5",
+                "text": "Preaqueça o forno a 180ºC antes de começar a encher as forminhas previamente untadas com margarina ou manteiga"
+            },
+            {
+                "key": "6",
+                "text": "Asse por aproximadamente 25 minutos, na mesma temperatura"
+            },
+            {
+                "key": "7",
+                "text": "Corte todos os pãezinhos ao meio e recheie com o sabor de sua preferência"
+            },
+            {
+                "key": "8",
+                "text": "Banhe-os no chocolate, espere secar bem e embale-os"
+            },
+            {
+                "key": "9",
+                "text": "Essa receita pode ser vendida a R$ 2,50 cada pãozinho"
+            }
         ]
     },
     {
-        "key":"2",
+        "key": "2",
         "title": "Bolo de Banana Fofinho",
-        "author":"Equipe Tudo Gostoso",
-        "description":"Este é um bolo de banana fofinho é ótimo.",
+        "author": "Equipe Tudo Gostoso",
+        "description": "Este é um bolo de banana fofinho é ótimo.",
         "yield": 16,
         "prep": 45,
-        "image":"https://img.itdg.com.br/tdg/images/recipes/000/188/774/268127/268127_original.jpg",
+        "image": "https://img.itdg.com.br/tdg/images/recipes/000/188/774/268127/268127_original.jpg",
         "ingredients": [
-            {"key": "1", "text": "1/2 xícara (chá) de leite"},
-            {"key": "2", "text": "1 xícara (chá) de óleo"},
-            {"key": "3", "text": "1 xícara (chá) de açúcar"},
-            {"key": "4", "text": "3 ovos"},
-            {"key": "5", "text": "2 bananas nanica médias picadas"},
-            {"key": "6", "text": "2 xícaras (chá) de farinha de trigo"},
-            {"key": "7", "text": "1 xícara (chá) de amido de milho MAIZENA®"},
-            {"key": "8", "text": "1 colher (sopa) de fermento em pó"}
+            {
+                "key": "1",
+                "text": "1/2 xícara (chá) de leite"
+            },
+            {
+                "key": "2",
+                "text": "1 xícara (chá) de óleo"
+            },
+            {
+                "key": "3",
+                "text": "1 xícara (chá) de açúcar"
+            },
+            {
+                "key": "4",
+                "text": "3 ovos"
+            },
+            {
+                "key": "5",
+                "text": "2 bananas nanica médias picadas"
+            },
+            {
+                "key": "6",
+                "text": "2 xícaras (chá) de farinha de trigo"
+            },
+            {
+                "key": "7",
+                "text": "1 xícara (chá) de amido de milho MAIZENA®"
+            },
+            {
+                "key": "8",
+                "text": "1 colher (sopa) de fermento em pó"
+            }
         ],
         "directions": [
-            {"key": "1", "text": "Bata no liquidificador o leite, o óleo, o açúcar e os ovos até que fique homogêneo e cremoso"},
-            {"key": "2", "text": "Junte as bananas e bata até triturar levemente"},
-            {"key": "3", "text": "Peneire o trigo, a MAIZENA® e o fermento, passe para uma tigela e adicione aos poucos a mistura até obter uma massa cremosa e homogênea"},
-            {"key": "4", "text": "Coloque a massa em uma forma redonda com furo central (20 cm de diâmetro) untada e enfarinhada, polvilhe com o açúcar e a canela e leve ao forno preaquecido em temperatura média (180°C) por 40 minutos ou até que um palito saia limpo, depois de espetado na massa"},
-            {"key": "5", "text": "Espere amornar e desenforme"}
+            {
+                "key": "1",
+                "text": "Bata no liquidificador o leite, o óleo, o açúcar e os ovos até que fique homogêneo e cremoso"
+            },
+            {
+                "key": "2",
+                "text": "Junte as bananas e bata até triturar levemente"
+            },
+            {
+                "key": "3",
+                "text": "Peneire o trigo, a MAIZENA® e o fermento, passe para uma tigela e adicione aos poucos a mistura até obter uma massa cremosa e homogênea"
+            },
+            {
+                "key": "4",
+                "text": "Coloque a massa em uma forma redonda com furo central (20 cm de diâmetro) untada e enfarinhada, polvilhe com o açúcar e a canela e leve ao forno preaquecido em temperatura média (180°C) por 40 minutos ou até que um palito saia limpo, depois de espetado na massa"
+            },
+            {
+                "key": "5",
+                "text": "Espere amornar e desenforme"
+            }
         ]
     },
     {
@@ -68,32 +170,108 @@
         "prep": 15,
         "image": "https://img.itdg.com.br/tdg/images/recipes/000/099/526/33459/33459_original.jpg",
         "ingredients": [
-            {"key": "0", "text": "PARA O CUPCAKE", "section": true},
-            {"key": "1", "text": "2 cenouras pequenas ou 2 grandes"},
-            {"key": "2", "text": "4 ovos"},
-            {"key": "3", "text": "1 pitada de sal"},
-            {"key": "4", "text": "¾ xícara de óleo"},
-            {"key": "5", "text": "2 xícaras de farinha de trigo"},
-            {"key": "6", "text": "2 xícaras de açúcar"},
-            {"key": "7", "text": "1 colher (sopa) de fermento em pó"},
-            {"key": "8", "text": "PARA O BRIGADEIRO", "section": true},
-            {"key": "9", "text": "1 lata de leite condensado"},
-            {"key": "10", "text": "3 colheres (sopa) de chocolate em pó"},
-            {"key": "11", "text": "1 colher sopa) de manteiga"},
-            {"key": "12", "text": "100 g de chocolate granulado"}
+            {
+                "key": "0",
+                "text": "PARA O CUPCAKE",
+                "section": true
+            },
+            {
+                "key": "1",
+                "text": "2 cenouras pequenas ou 2 grandes"
+            },
+            {
+                "key": "2",
+                "text": "4 ovos"
+            },
+            {
+                "key": "3",
+                "text": "1 pitada de sal"
+            },
+            {
+                "key": "4",
+                "text": "¾ xícara de óleo"
+            },
+            {
+                "key": "5",
+                "text": "2 xícaras de farinha de trigo"
+            },
+            {
+                "key": "6",
+                "text": "2 xícaras de açúcar"
+            },
+            {
+                "key": "7",
+                "text": "1 colher (sopa) de fermento em pó"
+            },
+            {
+                "key": "8",
+                "text": "PARA O BRIGADEIRO",
+                "section": true
+            },
+            {
+                "key": "9",
+                "text": "1 lata de leite condensado"
+            },
+            {
+                "key": "10",
+                "text": "3 colheres (sopa) de chocolate em pó"
+            },
+            {
+                "key": "11",
+                "text": "1 colher sopa) de manteiga"
+            },
+            {
+                "key": "12",
+                "text": "100 g de chocolate granulado"
+            }
         ],
         "directions": [
-            {"key": "0", "text": "CUPCAKE", "section": true},
-            {"key": "1", "text": "Bater os 4 primeiros ingredientes no liquidificador (cenoura, ovos, sal e óleo)."},
-            {"key": "2", "text": "À parte, peneire a farinha, o açúcar e o fermento."},
-            {"key": "3", "text": "Aos poucos despeje o líquido do liquidificador à massa, mexendo à mão e devagar até misturar bem."},
-            {"key": "4", "text": "Asse em forminhas individuais de cupcakes “ou” em forma de buraco no meio."},
-            {"key": "5", "text": "Quando estiver pronto cobrir com o brigadeiro e depois com chocolate granulado"},
-            {"key": "6", "text": "BRIGADEIRO", "section": true},
-            {"key": "7", "text": "Numa panela, junte o leite condensado, o chocolate em pó e a manteiga"},
-            {"key": "8", "text": "Misture bem para dissolver todo o chocolate."},
-            {"key": "9", "text": "Leve ao fogo baixo, mexendo sempre até começar a desprender do fundo da panela"},
-            {"key": "10", "text": "Desligue o fogo, deixe esfriar e coloque no saco de confeitar e decore os cupcakes."}
+            {
+                "key": "0",
+                "text": "CUPCAKE",
+                "section": true
+            },
+            {
+                "key": "1",
+                "text": "Bater os 4 primeiros ingredientes no liquidificador (cenoura, ovos, sal e óleo)."
+            },
+            {
+                "key": "2",
+                "text": "À parte, peneire a farinha, o açúcar e o fermento."
+            },
+            {
+                "key": "3",
+                "text": "Aos poucos despeje o líquido do liquidificador à massa, mexendo à mão e devagar até misturar bem."
+            },
+            {
+                "key": "4",
+                "text": "Asse em forminhas individuais de cupcakes “ou” em forma de buraco no meio."
+            },
+            {
+                "key": "5",
+                "text": "Quando estiver pronto cobrir com o brigadeiro e depois com chocolate granulado"
+            },
+            {
+                "key": "6",
+                "text": "BRIGADEIRO",
+                "section": true
+            },
+            {
+                "key": "7",
+                "text": "Numa panela, junte o leite condensado, o chocolate em pó e a manteiga"
+            },
+            {
+                "key": "8",
+                "text": "Misture bem para dissolver todo o chocolate."
+            },
+            {
+                "key": "9",
+                "text": "Leve ao fogo baixo, mexendo sempre até começar a desprender do fundo da panela"
+            },
+            {
+                "key": "10",
+                "text": "Desligue o fogo, deixe esfriar e coloque no saco de confeitar e decore os cupcakes."
+            }
         ]
     },
     {
@@ -105,26 +283,80 @@
         "prep": 40,
         "image": "https://img.itdg.com.br/tdg/images/recipes/000/083/793/323878/323878_original.jpg",
         "ingredients": [
-            {"key": "1", "text": "500 g de penne cozido al dente"},
-            {"key": "2", "text": "2 colheres (sopa) de azeite"},
-            {"key": "3", "text": "2 dentes de alho picados"},
-            {"key": "4", "text": "1 lata de molho de tomate"},
-            {"key": "5", "text": "200 g de requeijão de sua preferência"},
-            {"key": "6", "text": "1 lata de creme de leite"},
-            {"key": "7", "text": "300 g de presunto picado"},
-            {"key": "8", "text": "300 g de mussarela picada"},
-            {"key": "9", "text": "Queijo parmesão ralado"},
-            {"key": "10", "text": "Sal e pimenta a gosto"}
+            {
+                "key": "1",
+                "text": "500 g de penne cozido al dente"
+            },
+            {
+                "key": "2",
+                "text": "2 colheres (sopa) de azeite"
+            },
+            {
+                "key": "3",
+                "text": "2 dentes de alho picados"
+            },
+            {
+                "key": "4",
+                "text": "1 lata de molho de tomate"
+            },
+            {
+                "key": "5",
+                "text": "200 g de requeijão de sua preferência"
+            },
+            {
+                "key": "6",
+                "text": "1 lata de creme de leite"
+            },
+            {
+                "key": "7",
+                "text": "300 g de presunto picado"
+            },
+            {
+                "key": "8",
+                "text": "300 g de mussarela picada"
+            },
+            {
+                "key": "9",
+                "text": "Queijo parmesão ralado"
+            },
+            {
+                "key": "10",
+                "text": "Sal e pimenta a gosto"
+            }
         ],
         "directions": [
-            {"key": "0", "text": "Em uma panela aqueça o azeite e doure o alho."},
-            {"key": "1", "text": "Junte o molho de tomate, o requeijão e o creme de leite."},
-            {"key": "2", "text": "Tempere com sal e pimenta."},
-            {"key": "3", "text": "Deixe no fogo brando até o requeijão derreter."},
-            {"key": "4", "text": "Desligue o fogo e misture a mussarela e o presunto picados."},
-            {"key": "5", "text": "Em um refratário coloque o macarrão, despeje o molho e polvilhe o queijo ralado."},
-            {"key": "6", "text": "Deixe por 20 minutos em forno pré-aquecido."},
-            {"key": "7", "text": "Sirva em seguida."}
+            {
+                "key": "0",
+                "text": "Em uma panela aqueça o azeite e doure o alho."
+            },
+            {
+                "key": "1",
+                "text": "Junte o molho de tomate, o requeijão e o creme de leite."
+            },
+            {
+                "key": "2",
+                "text": "Tempere com sal e pimenta."
+            },
+            {
+                "key": "3",
+                "text": "Deixe no fogo brando até o requeijão derreter."
+            },
+            {
+                "key": "4",
+                "text": "Desligue o fogo e misture a mussarela e o presunto picados."
+            },
+            {
+                "key": "5",
+                "text": "Em um refratário coloque o macarrão, despeje o molho e polvilhe o queijo ralado."
+            },
+            {
+                "key": "6",
+                "text": "Deixe por 20 minutos em forno pré-aquecido."
+            },
+            {
+                "key": "7",
+                "text": "Sirva em seguida."
+            }
         ]
     },
     {
@@ -136,16 +368,40 @@
         "prep": 20,
         "image": "https://img.itdg.com.br/tdg/images/recipes/000/006/643/98047/98047_original.jpg",
         "ingredients": [
-            {"key": "1", "text": "12 colheres de farinha de trigo"},
-            {"key": "2", "text": "1 copo de óleo"},
-            {"key": "3", "text": "3 ovos inteiros"},
-            {"key": "4", "text": "1 colher de sobre mesa de sal"},
-            {"key": "5", "text": "2 copos de leite"},
-            {"key": "6", "text": "1 colher de fermento"},
-            {"key": "7", "text": "Recheio a gosto (ex: frango, sardinha, etc)"}
+            {
+                "key": "1",
+                "text": "12 colheres de farinha de trigo"
+            },
+            {
+                "key": "2",
+                "text": "1 copo de óleo"
+            },
+            {
+                "key": "3",
+                "text": "3 ovos inteiros"
+            },
+            {
+                "key": "4",
+                "text": "1 colher de sobre mesa de sal"
+            },
+            {
+                "key": "5",
+                "text": "2 copos de leite"
+            },
+            {
+                "key": "6",
+                "text": "1 colher de fermento"
+            },
+            {
+                "key": "7",
+                "text": "Recheio a gosto (ex: frango, sardinha, etc)"
+            }
         ],
         "directions": [
-            {"key": "1", "text": "Bata todos os ingredientes no liquidificador. Depois coloque a metade da massa em uma forma untada e coloque o recheio. Depois coloque o resto da massa. Leve para assar até ficar dourado."}
+            {
+                "key": "1",
+                "text": "Bata todos os ingredientes no liquidificador. Depois coloque a metade da massa em uma forma untada e coloque o recheio. Depois coloque o resto da massa. Leve para assar até ficar dourado."
+            }
         ]
     },
     {
@@ -157,37 +413,130 @@
         "prep": 90,
         "image": "https://img.itdg.com.br/tdg/images/recipes/000/009/125/282170/282170_original.jpg",
         "ingredients": [
-            {"key": "0", "text": "BIFE", "section": true},
-            {"key": "1", "text": "1 kg de carne para bife"},
-            {"key": "2", "text": "3 dentes de alho"},
-            {"key": "3", "text": "Sal"},
-            {"key": "4", "text": "1 ovo"},
-            {"key": "5", "text": "Farinha de rosca"},
-            {"key": "6", "text": "Óleo"},
-            {"key": "7", "text": "MOLHO", "section": true},
-            {"key": "8", "text": "1/2 cebola picada"},
-            {"key": "9", "text": "1 lata de molho de tomate"},
-            {"key": "10", "text": "1 colher (sobremesa) de catchup"},
-            {"key": "11", "text": "1 colher (chá) de mostarda"},
-            {"key": "12", "text": "Salsinha e cebolinha a gosto"},
-            {"key": "13", "text": "Sal a gosto"},
-            {"key": "14", "text": "Óleo"},
-            {"key": "15", "text": "MONTAGEM", "section": true},
-            {"key": "16", "text": "Queijo mussarela"},
-            {"key": "17", "text": "Orégano"}
+            {
+                "key": "0",
+                "text": "BIFE",
+                "section": true
+            },
+            {
+                "key": "1",
+                "text": "1 kg de carne para bife"
+            },
+            {
+                "key": "2",
+                "text": "3 dentes de alho"
+            },
+            {
+                "key": "3",
+                "text": "Sal"
+            },
+            {
+                "key": "4",
+                "text": "1 ovo"
+            },
+            {
+                "key": "5",
+                "text": "Farinha de rosca"
+            },
+            {
+                "key": "6",
+                "text": "Óleo"
+            },
+            {
+                "key": "7",
+                "text": "MOLHO",
+                "section": true
+            },
+            {
+                "key": "8",
+                "text": "1/2 cebola picada"
+            },
+            {
+                "key": "9",
+                "text": "1 lata de molho de tomate"
+            },
+            {
+                "key": "10",
+                "text": "1 colher (sobremesa) de catchup"
+            },
+            {
+                "key": "11",
+                "text": "1 colher (chá) de mostarda"
+            },
+            {
+                "key": "12",
+                "text": "Salsinha e cebolinha a gosto"
+            },
+            {
+                "key": "13",
+                "text": "Sal a gosto"
+            },
+            {
+                "key": "14",
+                "text": "Óleo"
+            },
+            {
+                "key": "15",
+                "text": "MONTAGEM",
+                "section": true
+            },
+            {
+                "key": "16",
+                "text": "Queijo mussarela"
+            },
+            {
+                "key": "17",
+                "text": "Orégano"
+            }
         ],
         "directions": [
-            {"key": "0", "text": "BIFE", "section": true},
-            {"key": "1", "text": "Tempere os bifes com alho e sal e reserve."},
-            {"key": "2", "text": "Bata o ovo inteiro e passe os bifes pelo ovo e pela farinha de rosca."},
-            {"key": "3", "text": "Aqueça em uma frigideira o óleo e frite os bifes, escorra-os em papel-toalha e vá dispondo em um refratário."},
-            {"key": "4", "text": "MOLHO", "section": true},
-            {"key": "5", "text": "Refogue a cebola no óleo, junte o molho de tomate, o catchup, a mostarda, o sal, salsinha e cebolinha, abaixe o fogo e deixe o molho apurar."},
-            {"key": "6", "text": "MONTAGEM", "section": true},
-            {"key": "7", "text": "Despeje o molho pronto sobre os bifes e distribua queijo mussarela sobre os bifes."},
-            {"key": "8", "text": "Salpique delicadamente um pouco de orégano por cima do queijo e leve ao forno até derreter o queijo."},
-            {"key": "9", "text": "Sirva com arroz e purê de batatas."},
-            {"key": "10", "text": "Bom apetite!"}
+            {
+                "key": "0",
+                "text": "BIFE",
+                "section": true
+            },
+            {
+                "key": "1",
+                "text": "Tempere os bifes com alho e sal e reserve."
+            },
+            {
+                "key": "2",
+                "text": "Bata o ovo inteiro e passe os bifes pelo ovo e pela farinha de rosca."
+            },
+            {
+                "key": "3",
+                "text": "Aqueça em uma frigideira o óleo e frite os bifes, escorra-os em papel-toalha e vá dispondo em um refratário."
+            },
+            {
+                "key": "4",
+                "text": "MOLHO",
+                "section": true
+            },
+            {
+                "key": "5",
+                "text": "Refogue a cebola no óleo, junte o molho de tomate, o catchup, a mostarda, o sal, salsinha e cebolinha, abaixe o fogo e deixe o molho apurar."
+            },
+            {
+                "key": "6",
+                "text": "MONTAGEM",
+                "section": true
+            },
+            {
+                "key": "7",
+                "text": "Despeje o molho pronto sobre os bifes e distribua queijo mussarela sobre os bifes."
+            },
+            {
+                "key": "8",
+                "text": "Salpique delicadamente um pouco de orégano por cima do queijo e leve ao forno até derreter o queijo."
+            },
+            {
+                "key": "9",
+                "text": "Sirva com arroz e purê de batatas."
+            },
+            {
+                "key": "10",
+                "text": "Bom apetite!"
+            }
         ]
     }
 ]
