@@ -10,7 +10,7 @@ export default function Method() {
 
   return (
     <View style={styles.area}>
-      <FlatList 
+      <FlatList
         initialNumToRender={40}
         data={recipe.directions}
         renderItem={({ item }) => {

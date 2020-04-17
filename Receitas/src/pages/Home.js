@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <StatusBar
-				translucent={true}
-				barStyle='light-content'
-				backgroundColor="transparent"
-			/>
-      <FlatList 
+        translucent={true}
+        barStyle='light-content'
+        backgroundColor="transparent"
+      />
+      <FlatList
         data={recipes}
-        renderItem={ ({ item }) => <RecipeItem data={item} /> }
+        renderItem={({ item }) => <RecipeItem data={item} />}
       />
     </View>
   );

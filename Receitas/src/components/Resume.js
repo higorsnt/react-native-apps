@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
 import NavigationContext from './NavigationContext';
-import { useNavigation } from '@react-navigation/native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Resume() {
 
@@ -10,17 +10,20 @@ export default function Resume() {
 
   return (
     <View style={styles.area}>
-      <Text style={[styles.title, styles.font]}>{recipe.title}</Text>
-      <Text style={[styles.author, styles.font]}>{recipe.author}</Text>
-      <Text style={[styles.description, styles.font]}>{recipe.description}</Text>
-      <View style={styles.rowArea}>
-        <Text style={[styles.fontInfo, styles.font]}>Rendimento: </Text>
-        <Text style={[styles.fontInfo, styles.font]}>{recipe.yield}</Text>
-      </View>
-      <View style={styles.rowArea}>
-        <Text style={[styles.fontInfo, styles.font]}>Tempo de Preparo: </Text>
-        <Text style={[styles.fontInfo, styles.font]}>{recipe.prep}</Text>
-      </View>
+      <ScrollView>
+        <Text style={[styles.title, styles.font]}>{recipe.title}</Text>
+        <Text style={[styles.author, styles.font]}>{recipe.author}</Text>
+        <Text style={[styles.description, styles.font]}>{recipe.description}</Text>
+        <View style={styles.rowArea}>
+          <Text style={[styles.fontInfo, styles.font]}>Rendimento: </Text>
+          <Text style={[styles.fontInfo, styles.font]}>{recipe.yield}</Text>
+        </View>
+        <View style={styles.rowArea}>
+          <Text style={[styles.fontInfo, styles.font]}>Tempo de Preparo: </Text>
+          <Text style={[styles.fontInfo, styles.font]}>{recipe.prep}</Text>
+        </View>
+      </ScrollView>
+      <Text style={[styles.ref, styles.font]}>Fonte: https://www.tudogostoso.com.br/</Text>
     </View>
   );
 }
@@ -64,4 +67,9 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     justifyContent: 'center'
   },
+  ref: {
+    fontSize: 14,
+    textAlign: 'center',
+    marginBottom: 20
+  }
 })

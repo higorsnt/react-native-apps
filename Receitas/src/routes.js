@@ -11,12 +11,13 @@ export default function Routes() {
 
 	return (
 		<NavigationContainer>
-			<Stack.Navigator 
-			screenOptions={{ 
-				gestureEnabled: true, 
-				...TransitionPresets.SlideFromRightIOS
-			}}>
-				<Stack.Screen 
+			<Stack.Navigator
+				screenOptions={{
+					gestureEnabled: true,
+					...TransitionPresets.SlideFromRightIOS,
+				}}
+			>
+				<Stack.Screen
 					name="Home"
 					component={Home}
 					options={{
@@ -29,11 +30,10 @@ export default function Routes() {
 						headerTitleStyle: {
 							fontSize: 20,
 							fontFamily: 'Lato',
-							fontWeight: 'bold',
 						}
 					}}
 				/>
-				<Stack.Screen 
+				<Stack.Screen
 					name="Recipe"
 					component={Recipe}
 					options={{

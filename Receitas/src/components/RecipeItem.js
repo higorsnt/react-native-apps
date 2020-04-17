@@ -11,7 +11,7 @@ export default function RecipeItem({ data }) {
 	}
 
 	return (
-		<TouchableHighlight 
+		<TouchableHighlight
 			activeOpacity={0.25}
 			onPress={openRecipe}
 			underlayColor="#ddd"
@@ -52,8 +52,7 @@ const styles = StyleSheet.create({
 	},
 	recipeAuthor: {
 		fontFamily: 'Lato',
-		fontSize: 12,
+		fontSize: 14,
 		color: '#AAA',
-		fontWeight: 'bold'
 	}
 })

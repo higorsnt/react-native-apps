@@ -23,8 +23,8 @@ export default function Recipe() {
 
 	return (
 		<View style={styles.container}>
-			<LinearGradient 
-				colors={['rgba(0, 0, 0, 0.8)', 'transparent']}
+			<LinearGradient
+				colors={['rgba(0, 0, 0, 1)', 'transparent']}
 				style={styles.gradientArea}
 			>
 				<TouchableHighlight
@@ -43,6 +43,13 @@ export default function Recipe() {
 
 			<NavigationContext.Provider value={recipe}>
 				<Tab.Navigator
+					tabBarOptions={{
+						activeTintColor: '#333333',
+						inactiveTintColor: '#CCCCCC',
+						indicatorStyle: {
+							backgroundColor: '#FF7F50'
+						},
+					}}
 					screenOptions={{
 						showIcon: false,
 						style: {
@@ -54,8 +61,6 @@ export default function Recipe() {
 							height: 47,
 							lineHeight: 47,
 						},
-						activeTintColor: '#333333',
-						inactiveTintColor: '#CCCCCC',
 					}}
 				>
 					<Tab.Screen name="Resume" component={Resume} options={{ tabBarLabel: 'Resumo' }} />
@@ -76,13 +81,14 @@ const styles = StyleSheet.create({
 	},
 	recipeImage: {
 		height: 250,
-		marginTop: -68
+		marginTop: -80
 	},
 	backButton: {
 		width: 40,
 		height: 40,
-		marginTop: 25,
+		marginTop: 40,
 		marginLeft: 10,
+		zIndex: 1,
 	},
 	backImage: {
 		width: 40,
