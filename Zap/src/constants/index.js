@@ -1,6 +1,0 @@
-export const CHANGE_STATUS = 'CHANGE_STATUS';
-export const CHANGE_NAME = 'CHANGE_NAME';
-export const CHANGE_EMAIL = 'CHANGE_EMAIL';
-export const CHANGE_PASSWORD = 'CHANGE_PASSWORD';
-export const REGISTERED_USER = 'REGISTERED_USER';
-export const LOGGED_USER = 'LOGGED_USER';
