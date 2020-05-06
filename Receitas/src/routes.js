@@ -8,7 +8,7 @@ import Recipe from './pages/Recipe';
 const Stack = createStackNavigator();
 
 export default function Routes() {
-
+	
 	return (
 		<NavigationContainer>
 			<Stack.Navigator

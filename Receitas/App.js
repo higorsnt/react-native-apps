@@ -1,4 +1,5 @@
 import React from 'react';
+import { View, StatusBar } from 'react-native';
 import { useFonts } from '@use-expo/font';
 import { AppLoading } from 'expo';
 
@@ -16,7 +17,14 @@ export default function App() {
     );
   } else {
     return (
-      <Routes />
+      <View>
+        <StatusBar
+          translucent={true}
+          barStyle='light-content'
+          backgroundColor="transparent"
+        />
+        <Routes />
+      </View>
     );
   }
 }
