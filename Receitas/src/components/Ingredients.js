@@ -10,6 +10,7 @@ export default function Ingredients() {
   return (
     <View style={styles.area}>
       <FlatList
+        showsVerticalScrollIndicator={false}
         initialNumToRender={40}
         data={recipe.ingredients}
         renderItem={({ item }) => {

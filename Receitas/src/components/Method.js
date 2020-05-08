@@ -11,6 +11,7 @@ export default function Method() {
   return (
     <View style={styles.area}>
       <FlatList
+        showsVerticalScrollIndicator={false}
         initialNumToRender={40}
         data={recipe.directions}
         renderItem={({ item }) => {

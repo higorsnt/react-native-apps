@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList, StatusBar } from 'react-native';
 
 import RecipeItem from '../components/RecipeItem';
 
@@ -9,7 +9,13 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
+      <StatusBar
+        translucent={true}
+        barStyle='light-content'
+        backgroundColor="transparent"
+      />
       <FlatList
+        showsVerticalScrollIndicator={false}
         data={recipes}
         renderItem={({ item }) => <RecipeItem data={item} />}
       />
