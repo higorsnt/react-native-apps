@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, Dimensions, TouchableHighlight } from 'react-native';
 
-export function Button({ onClick, label, double, triple, operation }) {
+export default function Button({ onClick, label, double, triple, operation }) {
   const stylesButton = [styles.button];
 
   if (double) {
