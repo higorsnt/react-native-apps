@@ -3,10 +3,17 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Field from './Field';
 
-const Minefield = ({ board }) => {
+const Minefield = ({ board, onOpenField, onSelectField }) => {
   const rows = board.length.map((row, r) => {
-    const columns = row.map((field, f) => {
-      return <Field {...field} key={f} />;
+    const columns = row.map((field, c) => {
+      return (
+        <Field
+          {...field}
+          key={c}
+          onOpen={() => onOpenField(r, c)}
+          onSelect={(e) => onSelectField(r, c)}
+        />
+      );
     });
 
     return (
