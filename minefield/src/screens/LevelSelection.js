@@ -47,6 +47,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 15,
+    width: 320,
+    height: 280,
   },
 
   title: {
@@ -57,6 +59,20 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 10,
     padding: 5,
+    width: '80%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 45,
+    borderRadius: 30,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+
+    elevation: 2,
   },
 
   buttonLabel: {

@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Field from './Field';
 
 const Minefield = ({ board, onOpenField, onSelectField }) => {
-  const rows = board.length.map((row, r) => {
+  const rows = board.map((row, r) => {
     const columns = row.map((field, c) => {
       return (
         <Field

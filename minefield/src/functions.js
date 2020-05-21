@@ -1,19 +1,21 @@
 const createBoard = (rows, columns) => {
-  return Array.fill(rows).map((_, row) => {
-    return Array(columns)
-      .fill(0)
-      .map((__, column) => {
-        return {
-          row,
-          column,
-          opened: false,
-          flagged: false,
-          mined: false,
-          exploded: false,
-          nearMines: 0,
-        };
-      });
-  });
+  return Array(rows)
+    .fill(0)
+    .map((_, row) => {
+      return Array(columns)
+        .fill(0)
+        .map((__, column) => {
+          return {
+            row,
+            column,
+            opened: false,
+            flagged: false,
+            mined: false,
+            exploded: false,
+            nearMines: 0,
+          };
+        });
+    });
 };
 
 const spreaMines = (board, minesAmount) => {
@@ -108,9 +110,10 @@ const showMines = (board) =>
 const invertFlag = (board, row, column) => {
   const field = board[row][column];
   field.flagged = !field.flagged;
-}
+};
 
-const flagsUsed = (board) => fields(board).filter((field) => field.flagged).length;
+const flagsUsed = (board) =>
+  fields(board).filter((field) => field.flagged).length;
 
 export {
   createMinedBoard,
@@ -120,5 +123,5 @@ export {
   wonGame,
   showMines,
   invertFlag,
-  flagsUsed
+  flagsUsed,
 };

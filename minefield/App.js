@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, StyleSheet, Alert } from 'react-native';
 
 import Header from './src/components/Header';
-import Minefield from './src/components/Minefield';
+import MineField from './src/components/MineField';
 import LevelSelection from './src/screens/LevelSelection';
 import {
   createMinedBoard,
@@ -17,20 +17,21 @@ import {
 import params from './src/params';
 
 const App = () => {
-  const cols = params.getColumnsAmount();
-  const rows = params.getRowsAmount();
+  let cols = params.getColumnsAmount();
+  let rows = params.getRowsAmount();
 
   const [board, setBoard] = useState(
-    createMinedBoard(cols, rows, minesAmount()),
+    createMinedBoard(rows, cols, minesAmount()),
   );
   const [won, setWon] = useState(false);
   const [lost, setLost] = useState(false);
   const [showLevelSelection, setShowLevelSelection] = useState(false);
 
   function reset() {
-    setBoard(createMinedBoard(cols, rows, minesAmount()));
+    setBoard(createMinedBoard(rows, cols, minesAmount()));
     setWon(false);
     setLost(false);
+    setShowLevelSelection(false);
   }
 
   function minesAmount() {
@@ -38,35 +39,35 @@ const App = () => {
   }
 
   function onOpenField(row, column) {
-    const newBoard = cloneBoard(board);
-    openField(newBoard, row, column);
-    const lost = hadExplosion(newBoard);
-    const won = wonGame(newBoard);
+    const clone = cloneBoard(board);
+    openField(clone, row, column);
+    const lost = hadExplosion(clone);
+    const won = wonGame(clone);
 
     if (lost) {
-      showMines(newBoard);
-      Alert.alert('Perdeeeeeu!', 'Que burro!');
+      showMines(clone);
+      Alert.alert('Perdeeeeeu!', 'Que coisa! Mas tente de novo!');
     }
 
     if (won) {
       Alert.alert('Parabéns!', 'Você venceu!');
     }
 
-    setBoard(newBoard);
+    setBoard(clone);
     setWon(won);
     setLost(lost);
   }
 
   function onSelectField(row, column) {
-    const newBoard = cloneBoard(board);
-    invertFlag(newBoard, row, column);
-    const won = wonGame(newBoard);
+    const clone = cloneBoard(board);
+    invertFlag(clone, row, column);
+    const won = wonGame(clone);
 
     if (won) {
       Alert.alert('Parabéns!', 'Você venceu!');
     }
 
-    setBoard(newBoard);
+    setBoard(clone);
     setWon(won);
   }
 
@@ -83,12 +84,12 @@ const App = () => {
         onCancel={() => setShowLevelSelection(false)}
       />
       <Header
-        onFlagPress={() => showLevelSelection(true)}
+        onFlagPress={() => setShowLevelSelection(true)}
         flagsLeft={minesAmount() - flagsUsed(board)}
         onNewGame={reset}
       />
       <View style={styles.board}>
-        <Minefield
+        <MineField
           board={board}
           onOpenField={onOpenField}
           onSelectField={onSelectField}
@@ -103,6 +104,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
   },
+
   board: {
     alignItems: 'center',
     backgroundColor: '#AAA',

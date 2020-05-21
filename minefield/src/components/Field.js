@@ -34,7 +34,6 @@ const Field = ({
   }
 
   let color = null;
-
   if (nearMines > 0) {
     if (nearMines === 1) {
       color = '#2A28D7';
@@ -54,7 +53,7 @@ const Field = ({
     <TouchableWithoutFeedback onPress={onOpen} onLongPress={onSelect}>
       <View style={styleField}>
         {!mined && opened && nearMines > 0 ? (
-          <Text style={[styles.label, { color }]} />
+          <Text style={[styles.label, { color }]}>{nearMines}</Text>
         ) : (
           false
         )}
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
   field: {
     height: params.blockSize,
     width: params.blockSize,
-    borderWidth: params.blockSize,
+    borderWidth: params.borderSize,
   },
 
   regular: {

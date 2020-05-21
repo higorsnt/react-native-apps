@@ -46,8 +46,21 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#999',
+    backgroundColor: '#030409',
     padding: 5,
+    borderRadius: 10,
+    width: 150,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 
   buttonLabel: {
